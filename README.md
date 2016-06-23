@@ -1,7 +1,8 @@
 # yamb
 ミナコイが使えるブラウザです。  
   yet another minakoi browser の頭文字をとって命名しました。  
-    読み方は"やむ"です。
+    読み方は"やむ"です。  
+      開発言語はC#です。
 ## Version
 1.0.0 - beta 1.0
 ## How To
