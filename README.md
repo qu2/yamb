@@ -2,7 +2,8 @@
 ミナコイが使えるブラウザです。  
   yet another minakoi browser の頭文字をとって命名しました。  
     読み方は"やむ"です。  
-      開発言語はC#です。
+      開発言語はC#です。  
+  Genesisという開発チームを立ち上げて作成しています。
 ## Download
 [ダウンロードはこちら](http://ux.getuploader.com/exe_exe/download/92/yamb.exe "Download")からできます。  
   パスワードは114514です。
@@ -42,3 +43,4 @@ archive.isを開き、魚拓を取ることができます。
   また、ソースの改変等は構いませんが許可なく再配布などを行うことは禁止でお願いします。
 ## Copyright
 &copy; 2016 [@Lv470](https://twitter.com/Lv470/ "Twitter") All Rights Reserved.
+Author by Genesis Dev Team
