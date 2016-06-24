@@ -7,7 +7,7 @@
 [ダウンロードはこちら](http://ux.getuploader.com/exe_exe/download/92/yamb.exe "Download")からできます。  
   パスワードは114514です。
 ## Version
-1.0.0 - beta 1.0
+1.0.0 - beta 1.1
 ## How To
 ### 機能(F)
 ##### 荒らし
@@ -24,7 +24,7 @@ archive.isを開き、魚拓を取ることができます。
 ##### Developers
 製作者の情報を見ることができます。特に意味はないです。
 ## What's New?
-・ はじめてのこうかい
+・ プロジェクトチームGenesisの仕様に対応
 ## Features
 ・ 連投、駐屯機能の修正  
   ・ Twitter連携のようなもの  
