@@ -31,8 +31,12 @@ archive.isを開き、魚拓を取ることができます。
     ・ スクショの範囲と画質や出力形式等の最適化  
       ・ その他起こりうる例外の修正
 ## Existing Bugs
+#### FraudButtons (ID:1)
 ・ ルブルを開いた状態でTopやルーム作成を押すとミナコイに飛ばされる。  
   → それぞれの箇所に`browser.Url = new Uri("http://www.3751chat.com/");`と`browser.Url = new Uri("http://www.3751chat.com/RoomMake");`が割り当てられている為。修正はするかもしれない。
+#### crash_urlBox (ID:2)
+・ URL欄にhttp://やhttps://から始まる文字列以外や日本語を入力した時などにyamb本体が強制終了する。  
+  → 不明(要検証)
 ## Support
 バグを発見した場合やソースをこうしたらいいのでは？等々の意見は[Twitter(@Lv470)](https://twitter.com/Lv470/ "Twitter")までお願いします。  
   また、ソースの改変等は構いませんが許可なく再配布などを行うことは禁止でお願いします。
