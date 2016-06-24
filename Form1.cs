@@ -1,4 +1,4 @@
-/* yamb (yet another minakoi browser) by @Lv470 */
+/* yamb (yet another minakoi browser) code by @Lv470 */
 
 using System;
 using System.Collections.Generic;
