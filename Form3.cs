@@ -24,11 +24,18 @@ namespace yamb
             
         }
 
-        // Twitterを開く
+        // Twitterを開く - @Lv470
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Form4 form4 = new Form4();
             form4.Show();
+        }
+
+        // Twitterを開く - @YAOMIA1
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.Show();
         }
     }
 }
