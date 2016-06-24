@@ -42,5 +42,5 @@ archive.isを開き、魚拓を取ることができます。
 バグを発見した場合やソースをこうしたらいいのでは？等々の意見は[Twitter(@Lv470)](https://twitter.com/Lv470/ "Twitter")までお願いします。  
   また、ソースの改変等は構いませんが許可なく再配布などを行うことは禁止でお願いします。
 ## Copyright
-&copy; 2016 [@Lv470](https://twitter.com/Lv470/ "Twitter") All Rights Reserved.
-Author by Genesis Dev Team
+&copy; 2016 [@Lv470](https://twitter.com/Lv470/ "Twitter") All Rights Reserved.  
+  Author by Genesis Dev Team
