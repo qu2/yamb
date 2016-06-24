@@ -23,9 +23,9 @@ archive.isを開き、魚拓を取ることができます。
 ### yamb(Y)
 ##### Developers
 製作者の情報を見ることができます。特に意味はないです。
-#### What's New?
+## What's New?
 ・ はじめてのこうかい
-#### Features
+## Features
 ・ 連投、駐屯機能の修正  
   ・ Twitter連携のようなもの  
     ・ スクショの範囲と画質や出力形式等の最適化  
