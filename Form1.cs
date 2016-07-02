@@ -1,4 +1,5 @@
 /* yamb (yet another minakoi browser) code by @Lv470 */
+/* ver 1.0.0 - beta 2.0 */
 
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,10 @@ namespace yamb
         private void yamb_Load(object sender, EventArgs e)
         {
             browser.Url = new Uri("http://www.3751chat.com/");
+            
+            // 起動時にTwitterも同時に起動
+            Form6 form6 = new Form6();
+            form6.Show();
         }
 
         // target="_blank"を無効
@@ -159,6 +164,45 @@ namespace yamb
         private void roomMake_Click(object sender, EventArgs e)
         {
             browser.Url = new Uri("http://www.3751chat.com/RoomMake");
+        }
+        
+        // GitHubへ移動
+        private void btnSource_Click(object sender, EventArgs e)
+        {
+            browser.Url = new Uri("https://github.com/qu2/yamb");
+        }
+
+        // ProModeの切り替え
+        private void cbPromode_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbPromode.Checked){
+                DialogResult dr = MessageBox.Show("ProModeをオンにするとグレーアウトされた機能が開放されますが、予期せぬエラーが起こることがあります。それでもよろしければOKを押してください。", "yamb", MessageBoxButtons.OKCancel);
+
+                // OKが押されたら
+                if (dr == System.Windows.Forms.DialogResult.OK)
+                {
+                    // 機能の開放
+                    this.lnkLuvul.Enabled = true;
+                    this.tsmiTroll.Enabled = true;
+
+                    // ProModeの固定化
+                    this.cbPromode.Enabled = false;
+                }
+
+                // キャンセルが押されたら
+                else if (dr == System.Windows.Forms.DialogResult.Cancel)
+                {
+                    // チェックボックスを外す
+                    this.cbPromode.Checked = false;
+                }
+
+                // それ以外が押されたら
+                else
+                {
+                    // 同上
+                    this.cbPromode.Checked = false;
+                }
+            }
         }
     }
 }
