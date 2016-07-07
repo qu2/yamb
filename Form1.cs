@@ -1,5 +1,5 @@
 /* yamb (yet another minakoi browser) code by @Lv470 */
-/* ver 1.0.0 - beta 2.0 */
+/* ver 1.0.0 - beta 2.1 */
 
 using System;
 using System.Collections.Generic;
@@ -25,10 +25,6 @@ namespace yamb
         private void yamb_Load(object sender, EventArgs e)
         {
             browser.Url = new Uri("http://www.3751chat.com/");
-            
-            // 起動時にTwitterも同時に起動
-            Form6 form6 = new Form6();
-            form6.Show();
         }
 
         // target="_blank"を無効
@@ -118,7 +114,12 @@ namespace yamb
         {
             browser.Url = new Uri("http://www.3751chat.com/ChatRoom?room_id=2");
         }
-
+        
+        //小学生ルームへ移動
+        private void lnkChat_Click(object sender, EventArgs e)
+        {
+            browser.Url = new Uri("http://www.3751chat.com/ChatRoom?room_id=72111");
+        }
         // ルブルへ移動
         private void lnkLuvul_Click(object sender, EventArgs e)
         {
