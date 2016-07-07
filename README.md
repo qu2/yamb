@@ -5,7 +5,7 @@
       開発言語はC#です。  
   Genesisという開発チームを立ち上げて作成しています。
 ## Download
-[ダウンロードはこちら](http://ux.getuploader.com/djlipton/download/174/yamb.exe "Download")からできます。  
+[ダウンロードはこちら](http://ux.getuploader.com/djlipton/download/175/yamb.zip "Download")からできます。  
   パスワードは114514です。
 ## Version
 1.0.0 - beta 2.1
