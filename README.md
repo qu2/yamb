@@ -5,10 +5,10 @@
       開発言語はC#です。  
   Genesisという開発チームを立ち上げて作成しています。
 ## Download
-[ダウンロードはこちら](http://ux.getuploader.com/exe_exe/download/92/yamb.exe "Download")からできます。  
+[ダウンロードはこちら](http://ux.getuploader.com/djlipton/download/174/yamb.exe "Download")からできます。  
   パスワードは114514です。
 ## Version
-1.0.0 - beta 2.0
+1.0.0 - beta 2.1
 ## How To
 ### 機能(F)
 ##### 荒らし
@@ -33,8 +33,8 @@ yambのソースコードが見れます。このページのことです。
 ### ProMode
 オンにすることで不安定や未完全などの理由で通常使用できない機能を開放することができますが、案の定不具合も多いのであまりおすすめはしません。yamb自体を閉じるとオフになります。
 ## What's New?
-・ 起動時にTwitterを同時に開くようになりました。  
-  ・ ProModeの追加により、安定性が向上しました。
+・ 起動時のTwitter起動を廃止しました。  
+  ・ 小学生ルームへのリンクを追加しました。
 ## Features
 ・ 連投、駐屯機能の修正  
   ・ Twitter機能の最適化  
