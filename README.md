@@ -7,7 +7,7 @@
 ## Download
 [ダウンロードはこちら](http://3751.ml/ "Download")からできます。  
 ## Version
-1.0.0
+1.0.1
 ## How To
 ### 機能(F)
 ##### 荒らし
