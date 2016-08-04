@@ -1,5 +1,5 @@
 /* yamb (yet another minakoi browser) code by @Lv470 */
-/* ver 1.0.0 (こんな不完全なものを正式版としてリリースしていいのだろうか) */
+/* ver 1.0.1 */
 
 using System;
 using System.Collections.Generic;
@@ -25,6 +25,14 @@ namespace yamb
         private void yamb_Load(object sender, EventArgs e)
         {
             browser.Url = new Uri("http://www.3751chat.com/");
+        }
+
+        // 題名の表示
+        private void browser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            string formTitle;
+            formTitle = (" - " + browser.DocumentTitle);
+            this.Text = ("yamb" + formTitle);
         }
 
         // target="_blank"を無効
@@ -279,6 +287,17 @@ namespace yamb
             }
         }
 
+        /* サイコロ */
+        // 2d6
+        private void dice_2d6_Click(object sender, EventArgs e)
+        {
+            HtmlElementCollection all = browser.Document.All;
+            HtmlElementCollection forms = all.GetElementsByName("chat");
+            forms[0].InnerText = ("2d6");
+            SendKeys.Send("{ENTER}");
+        }
+
+
         /* 定型文 */
         // こんにちは
         private void FP_Hello_Click(object sender, EventArgs e)
@@ -298,13 +317,12 @@ namespace yamb
             SendKeys.Send("{ENTER}");
         }
 
-        /* サイコロ */
-        // 2d6
-        private void dice_2d6_Click(object sender, EventArgs e)
+        // ノシ
+        private void FP_Bye_Click(object sender, EventArgs e)
         {
             HtmlElementCollection all = browser.Document.All;
             HtmlElementCollection forms = all.GetElementsByName("chat");
-            forms[0].InnerText = ("2d6");
+            forms[0].InnerText = ("ノシ");
             SendKeys.Send("{ENTER}");
         }
     }
